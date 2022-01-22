@@ -320,17 +320,35 @@ Preloader Area CSS
   stroke-linejoin: round;
 }
 
-.preloader .loader .indicator svg polyline#back {
+.preloader .loader .indicator svg polygon#back {
   stroke: #ffffff;
+  fill:none;
+  stroke-width:2;
 }
 
-.preloader .loader .indicator svg polyline#front {
+.preloader .loader .indicator svg polygon#front {
   stroke: #1A76D1;
   stroke-dasharray: 12, 36;
   stroke-dashoffset: 48;
+  fill:none;
   -webkit-animation: dash 1s linear infinite;
           animation: dash 1s linear infinite;
 }
+
+.preloader .loader .indicator svg path#back {
+	stroke: #ffffff;
+	fill:none;
+	stroke-width:2;
+  }
+  
+  .preloader .loader .indicator svg path#front {
+	stroke: #1A76D1;
+	stroke-dasharray: 12, 36;
+	stroke-dashoffset: 48;
+	fill:none;
+	-webkit-animation: dash 1s linear infinite;
+			animation: dash 1s linear infinite;
+  }
 
 .preloader::before, .preloader::after {
   content: '';

@@ -61,62 +61,48 @@
     </head>
     <body>
 	
-		<!-- Preloader -->
+<!-- Preloader -->
         <div class="preloader">
             <div class="loader">
-                <div class="loader-outter"></div>
-                <div class="loader-inner"></div>
+                <!-- <div class="loader-outter"></div>
+                <div class="loader-inner"></div> -->
 
                 <div class="indicator"> 
-                    <svg width="16px" height="12px">
+                    <!-- <svg width="16px" height="12px">
                         <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
                         <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
-                    </svg>
+                    </svg> -->
+
+					<svg>
+    					<g>
+    						<polygon id="back"
+            					points="83.781 75.269 86.367 72.683 88.954 75.269 88.954 50.216 83.781 52.514"
+        					/>
+							<polygon id="front"
+            					points="83.781 75.269 86.367 72.683 88.954 75.269 88.954 50.216 83.781 52.514"
+        					/>
+    						<path id="back"
+            					d="m93.912 39.711l-41.342-20.705c-1.413-0.708-3.726-0.708-5.139 0l-41.343 20.705c-1.413 0.708-1.455 1.944-0.094 2.746l38.516 22.696 0.026 0.015-25.574-11.445v7.495c0 1.581 1.114 3.531 2.476 4.333l26.086 15.371c1.362 0.803 3.59 0.803 4.952 0l26.086-15.371c1.362-0.803 2.476-2.752 2.476-4.333v-7.486l-25.087 11.149 38.055-22.424c1.361-0.803 1.319-2.039-0.094-2.746z"
+        					/>
+							<path id="front"
+            					d="m93.912 39.711l-41.342-20.705c-1.413-0.708-3.726-0.708-5.139 0l-41.343 20.705c-1.413 0.708-1.455 1.944-0.094 2.746l38.516 22.696 0.026 0.015-25.574-11.445v7.495c0 1.581 1.114 3.531 2.476 4.333l26.086 15.371c1.362 0.803 3.59 0.803 4.952 0l26.086-15.371c1.362-0.803 2.476-2.752 2.476-4.333v-7.486l-25.087 11.149 38.055-22.424c1.361-0.803 1.319-2.039-0.094-2.746z"
+        					/>
+    					</g>
+      				</svg>
                 </div>
             </div>
         </div>
         <!-- End Preloader -->
-		
-		<!-- Mediplus Color Plate -->
-		<div class="color-plate">
-			<a class="color-plate-icon"><i class="fa fa-cog fa-spin"></i></a>
-			<h4>Mediplus</h4>
-			<p>Here is some awesome color's available on Mediplus Template.</p>
-			<span class="color1"></span>
-			<span class="color2"></span>
-			<span class="color3"></span>
-			<span class="color4"></span>
-			<span class="color5"></span>
-			<span class="color6"></span>
-			<span class="color7"></span>
-			<span class="color8"></span>
-			<span class="color9"></span>
-			<span class="color10"></span>
-			<span class="color11"></span>
-			<span class="color12"></span>
-		</div>
-		<!-- /End Color Plate -->
 	
 		<!-- Header Area -->
 		<header class="header" >
 			<!-- Topbar -->
-			<div class="topbar">
+			<div class="topbar" >
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-6 col-md-5 col-12">
-							<!-- Contact -->
-							<ul class="top-link">
-								<li><a href="#">About</a></li>
-								<li><a href="#">Doctors</a></li>
-								<li><a href="#">Contact</a></li>
-								<li><a href="#">FAQ</a></li>
-							</ul>
-							<!-- End Contact -->
-						</div>
 						<div class="col-lg-6 col-md-7 col-12">
 							<!-- Top Contact -->
 							<ul class="top-contact">
-								<li><i class="fa fa-phone"></i>XXX</li>
 								<li><i class="fa fa-envelope"></i><a href="mailto:XXX">XXX</a></li>
 							</ul>
 							<!-- End Top Contact -->
@@ -145,55 +131,27 @@
 								<div class="main-menu">
 									<nav class="navigation">
 										<ul class="nav menu">
-											<li class="active"><a href="#">Home <i class="icofont-rounded-down"></i></a>
+											<li class="active"><a href="#">About us <i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
-													<li><a href="index.html">Default Homepage</a></li>
-													<li><a href="index2.html">Animation Homepage</a></li>
+													<li><a href="#missions">Our Missions</a></li>
+													<li><a href="#">Our Results</a></li>
 												</ul>
 											</li>
-											<li><a href="#">Doctos <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="doctors.html">Doctor</a></li>
-													<li><a href="doctor-details.html">Doctor Details</a></li>
-												</ul>
+											<li><a href="#team">Our Team</i></a>
+												
 											</li>
-											<li><a href="#">Services <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="service.html">Service</a></li>
-													<li><a href="service-details.html">Service Details</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="about.html">About Us</a></li>
-													<li><a href="appointment.html">Appointment</a></li>
-													<li><a href="time-table.html">Time Table</a></li>
-													<li><a href="testimonials.html">Testimonials</a></li>
-													<li><a href="pricing.html">Our Pricing</a></li>
-													<li><a href="register.html">Sign Up</a></li>
-													<li><a href="login.html">Login</a></li>
-													<li><a href="faq.html">Faq</a></li>
-													<li><a href="mail-success.html">Mail Success</a></li>
-													<li><a href="404.html">404 Error</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Blogs <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="blog-grid.html">Blog Grid</a></li>
-													<li><a href="blog-single.html">Blog Details</a></li>
-												</ul>
-											</li>
+
+											<li> <a href="timeline.html">Collge Admission Timeline</a></li>
+											
 											<li><a href="contact.html">Contact Us</a></li>
 										</ul>
+
 									</nav>
+
 								</div>
 								<!--/ End Main Menu -->
 							</div>
-							<div class="col-lg-2 col-12">
-								<div class="get-quote">
-									<a href="appointment.html" class="btn">Book Appointment</a>
-								</div>
-							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -208,10 +166,10 @@
 				<div class="row">
 					<div class="col-lg-6 offset-lg-3 col-12">
 						<!-- Error Inner -->
-						<div class="success-inner">
+						<div class="success-inner" sty>
 							<h1><i class="icofont-send-mail"></i><span>Your Mail Sent Successfully!</span></h1>
-							<p>Aenean eget sollicitudin lorem, et pretium felis. Nullam euismod diam libero, sed dapibus leo laoreet ut. Suspendisse potenti. Phasellus urna lacus</p>
-							<a href="index.html" class="btn">Go Home</a>
+							
+							<a href="index.html" class="btn" style="margin: 20px;">Go Home</a>
 						</div>
 						<!--/ End Error Inner -->
 					</div>
@@ -221,84 +179,15 @@
 		<!--/ End Mail Success -->
 		
 		<!-- Footer Area -->
-		<footer id="footer" class="footer ">
-			<!-- Footer Top -->
-			<div class="footer-top">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>About Us</h2>
-								<p>Lorem ipsum dolor sit am consectetur adipisicing elit do eiusmod tempor incididunt ut labore dolore magna.</p>
-								<!-- Social -->
-								<ul class="social">
-									<li><a href="#"><i class="icofont-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
-									<li><a href="#"><i class="icofont-twitter"></i></a></li>
-									<li><a href="#"><i class="icofont-vimeo"></i></a></li>
-									<li><a href="#"><i class="icofont-pinterest"></i></a></li>
-								</ul>
-								<!-- End Social -->
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer f-link">
-								<h2>Quick Links</h2>
-								<div class="row">
-									<div class="col-lg-6 col-md-6 col-12">
-										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Cases</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Other Links</a></li>	
-										</ul>
-									</div>
-									<div class="col-lg-6 col-md-6 col-12">
-										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Consuling</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>Open Hours</h2>
-								<p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p>
-								<ul class="time-sidual">
-									<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
-									<li class="day">Saturday <span>9.00-18.30</span></li>
-									<li class="day">Monday - Thusday <span>9.00-15.00</span></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>Newsletter</h2>
-								<p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-									<input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
-										onblur="this.placeholder = 'Your email address'" required="" type="email">
-									<button class="button"><i class="icofont icofont-paper-plane"></i></button>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ End Footer Top -->
+		<footer id="footer" class="footer">
+		
 			<!-- Copyright -->
 			<div class="copyright">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-12">
 							<div class="copyright-content">
-								<p>Copyright &copy; 2020.Company name All rights reserved.</p>
+								<p>Copyright &copy; 2022. ProCollegeCoach All rights reserved.</p>
 							</div>
 						</div>
 					</div>
@@ -306,7 +195,7 @@
 			</div>
 			<!--/ End Copyright -->
 		</footer>
-		<!--/ End Footer Area -->
+		<!--/ End Footer Area -->	
 		
 		<!-- jquery Min JS -->
         <script src="js/jquery.min.js"></script>
