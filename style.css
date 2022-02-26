@@ -624,16 +624,16 @@ body{
 	background: #fff;
 	margin: 0;
 	padding: 0;
-	height: 230px;
+	height: 520px;
 }
 .schedule .schedule-inner {
 	position: relative;
-	transform: translateY(-50%);
 	z-index:9;
 }
 .schedule .single-schedule {
 	position: relative;
 	text-align: left;
+	margin: 10px;
 	z-index:3;
 	border-radius:5px;
 	background:#1A76D1;
